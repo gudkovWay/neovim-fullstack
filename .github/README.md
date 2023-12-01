@@ -3,11 +3,11 @@
 <div align="center">
 
   <span> • </span>
-    	<a href="#Install">Install</a>
+    	<a href="#install">Install</a>
   <span> • </span>
-    	<a href="#FirstSteps">First steps</a>
+    	<a href="#first-steps-after-install">First steps</a>
   <span> • </span>
-    	<a href="#Mapping">Mapping</a>
+    	<a href="#mapping">Mapping</a>
   <span> • </span>
         <a href="#Features">Features</a>
   <p></p>
