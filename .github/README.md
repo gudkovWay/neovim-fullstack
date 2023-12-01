@@ -30,14 +30,12 @@
 
 ### Then you need to did backup your nvim config and install my:
 
-<details>
-<summary> Linux</summary>
+<b>Linux</b>  
 ```sh
-mv ~/.config/nvim ~/.config/nvim_backup
-cd ~/.config
-git clone https://github.com/gudkovWay/neovim-fullstack nvim
-```
-</details>
+  mv ~/.config/nvim ~/.config/nvim_backup
+  cd ~/.config
+  git clone https://github.com/gudkovWay/neovim-fullstack nvim
+```  
 
 ### Now u can run neovim. With first run Mason will be install for u all plugins.
 
