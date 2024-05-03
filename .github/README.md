@@ -25,7 +25,7 @@
 
 ## Showcase
 
-<img src="images/000.png">
+<img src="../images/000.png">
 
 ## Install
 
