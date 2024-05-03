@@ -3,13 +3,13 @@
 <div align="center">
 
   <span> • </span>
-    	<a href="https://nvchad.com/docs/quickstart/install">Install</a>
+    	<a href="#install">Install</a>
   <span> • </span>
-    	<a href="https://nvchad.com/docs/quickstart/install">First steps</a>
+    	<a href="#first-steps-after-install">First steps</a>
   <span> • </span>
-    	<a href="https://nvchad.com/docs/quickstart/install">Mapping</a>
+    	<a href="#mapping">Mapping</a>
   <span> • </span>
-        <a href="https://nvchad.com/docs/features">Features</a>
+        <a href="#Features">Features</a>
   <p></p>
 </div>
 
@@ -18,26 +18,29 @@
 [![Neovim Minimum Version](https://img.shields.io/badge/Neovim-0.9.0-302D41?style=flat-square&logo=Neovim&color=302D41&logoColor=D9E0EE)](https://github.com/neovim/neovim)
 </div>
 
+<div align="center">
+    <span>• </span>
+    <a href="https://github.com/ecosse3/nvim">Thanks this man:</a>
+</div>
+
 ## Showcase
 
-<img src="images/001.png">
-<img src="images/002.png">
+<img src="../images/001.png">
+<img src="../images/002.png">
 
 ## Install
 
 ### First of all you need to install dependencies:
-<b><i>git, npm, nodejs and neovim</i></b>
+<b><i>nvim, nodejs, git, npm, cargo and fnm</i></b>
 
 ### Then you need to did backup your nvim config and install my:
 
-<details>
-<summary> Linux</summary>
+<b>Linux</b>  
 ```sh
-mv ~/.config/nvim ~/.config/nvim_backup
-cd ~/.config
-git clone https://github.com/gudkovWay/neovim-fullstack nvim
-```
-</details>
+  mv ~/.config/nvim ~/.config/nvim_backup
+  cd ~/.config
+  git clone https://github.com/gudkovWay/neovim-fullstack nvim
+```  
 
 ### Now u can run neovim. With first run Mason will be install for u all plugins.
 
@@ -94,61 +97,61 @@ nvim ~./config/nvim/lua/custom/plugins.lua
 nvim ~./config/nvim/lua/custom/mappings.lua
 ```
 
+
+ 
 ## Mapping
 <b>leader = space </b>
 
-<details>
-    <summary>Normal Mode</summary>
-    | Key | Function |
-    | --- | --- |
-    | <kbd>h</kbd> | Move left |
-    | <kbd>j</kbd> | Move down |
-    | <kbd>k</kbd> | Move up |
-    | <kbd>l</kbd> | Move right |
-    | <kbd>[[</kbd> | Move to first line |
-    | <kbd>]]</kbd> | Move to last line |
-    | <kbd>w</kbd> | Move to next word |
-    | <kbd>b</kbd> | Move to previous word |
-    | <kbd>W</kbd> | Move to next word after space |
-    | <kbd>B</kbd> | Move to previous word before space |
-    | <kbd>0</kbd> | Move to start of line |
-    | <kbd>$</kbd> | Move to end of line |
-    | <kbd> di{</kbd> | Delete inside {} |
-    | <kbd> di[</kbd> | Delete inside [] |
-    | <kbd> di(</kbd> | Delete inside () |
-    | <kbd> d{number}j</kbd>| Delete {number} lines after |
-    | <kbd> d{number}k</kbd>| Delete {number} lines before |
-    | <kbd> d$</kbd> | Delete full line |
-    | <kbd> dG </kbd> | Delete to last line |
-    | <kbd> dt{letter}</kbd> | Delete to {letter} |
-    | <kbd> yiw</kbd> | Copy word |
-    | <kbd> yip</kbd> | Copy paragraph |
-    | <kbd> y{number}j </kbd> | Copy {number} lines after |
-    | <kbd> y{number}k </kbd> | Copy {number} lines before |
-    | <kbd> y$</kbd> | Copy full line|
-    | <kbd> yG</kbd> | Copy to last line |
-    | <kbd> p</kbd> | Paste |
-    | <kbd> u </kbd> | Undo |
-    | <kbd> leader + r + n </kbd> | Toggle relative number line |
-    | <kbd> leader + t + h </kbd> | Choose nvchad theme |
-    | <kbd> leader + f + w </kbd> | live grep by word |
-    | <kbd> leader + f + f </kbd> | live grep by file |
-    | ...future... | ...future... |
-</details>
-<details>
-    <summary>Insert Mode</summary>
-    | Key | Function |
-    | --- | --- |
-    | <kbd>jj</kbd> | Turn off insert mode |
-    | <kbd>CTRL+SHIFT+V</kbd> | paste |
-    | <kbd>CTRL+SHIFT+X</kbd> | cut |
-    | <kbd>CTRL+SHIFT+C</kbd> | copy |
-    | //TODO: | todo highlight |
-    | ...future... | ...future... |
+<b> Normal Mode </b>
+| Key  | Function  |  
+|:-:|:-:|
+| <kbd>h</kbd> | Move left |
+| <kbd>j</kbd> | Move down |
+| <kbd>k</kbd> | Move up |
+| <kbd>l</kbd> | Move right |
+| <kbd>[[</kbd> | Move to first line |
+| <kbd>]]</kbd> | Move to last line |
+| <kbd>w</kbd> | Move to next word |
+| <kbd>b</kbd> | Move to previous word |    
+| <kbd>W</kbd> | Move to next word after space |
+| <kbd>B</kbd> | Move to previous word before space |
+| <kbd>0</kbd> | Move to start of line |
+| <kbd>$</kbd> | Move to end of line |
+| <kbd> di{</kbd> | Delete inside {} |
+| <kbd> di[</kbd> | Delete inside [] |
+| <kbd> di(</kbd> | Delete inside () |
+| <kbd> d{number}j</kbd>| Delete {number} lines after |
+| <kbd> d{number}k</kbd>| Delete {number} lines before |
+| <kbd> d$</kbd> | Delete full line |
+| <kbd> dG </kbd> | Delete to last line |
+| <kbd> dt{letter}</kbd> | Delete to {letter} |
+| <kbd> yiw</kbd> | Copy word |
+| <kbd> yip</kbd> | Copy paragraph |
+| <kbd> y{number}j </kbd> | Copy {number} lines after |
+| <kbd> y{number}k </kbd> | Copy {number} lines before |
+| <kbd> y$</kbd> | Copy full line|
+| <kbd> yG</kbd> | Copy to last line |
+| <kbd> p</kbd> | Paste |
+| <kbd> u </kbd> | Undo |
+| <kbd> leader + r + n </kbd> | Toggle relative number line |
+| <kbd> leader + t + h </kbd> | Choose nvchad theme |
+| <kbd> leader + f + w </kbd> | live grep by word |
+| <kbd> leader + f + f </kbd> | live grep by file |
+| ...future... | ...future... |
+
+<b>Insert Mode</b>
+| Key | Function |
+| :-: | :-: |
+| <kbd>jj</kbd> | Turn off insert mode |
+| <kbd>CTRL+SHIFT+V</kbd> | paste |
+| <kbd>CTRL+SHIFT+X</kbd> | cut |
+| <kbd>CTRL+SHIFT+C</kbd> | copy |
+| //TODO: | todo highlight |
+| ...future... | ...future... |
 </details>
 
 ## Features
 
-[ ] Move all the mapping to the list
-[ ] Add more languages programming for backend
-[ ] Add compatibility with Windows, MacOS
+- [ ] Move all the mapping to the list
+- [ ] Add more languages programming for backend
+- [ ] Add compatibility with Windows, MacOS
