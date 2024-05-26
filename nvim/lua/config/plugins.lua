@@ -3,13 +3,23 @@ return {
   -- │ Themes                                                  │
   -- ╰─────────────────────────────────────────────────────────╯
   {
-    "Shatur/neovim-ayu",
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+  },
+  {
+    "scottmckendry/cyberdream.nvim",
     lazy = false,
     priority = 1000,
     config = function()
-      vim.cmd([[colorscheme ayu-mirage]])
+      vim.cmd([[colorscheme cyberdream]])
       require("config.colorscheme")
     end,
+  },
+  {
+    "Shatur/neovim-ayu",
+    lazy = false,
+    priority = 1000,
   },
   { "nvim-lua/plenary.nvim" },
   {
@@ -956,13 +966,10 @@ return {
         header = require('ascii').get_random("misc", "skulls"),
         date_format = '%Y-%m-%d %H:%M:%S',
         directories = {
-          '~/.config/bspwm/',
           '~/.config/nvim/',
-          '~/dev/ecommerce/',
-          '~/dev/rostelekom/',
-          '~/dev/hh/',
           '~/dev/work/',
           '~/dev/college/',
+          '~/dev/hh/',
           '~/dev/education/',
         },
       })

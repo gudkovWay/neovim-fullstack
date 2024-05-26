@@ -13,7 +13,7 @@ vim.opt.runtimepath:prepend(lazypath)
 
 require("lazy").setup("config.plugins", {
   defaults = { lazy = true },
-  install = { colorscheme = { "ayu" } },
+  install = { colorscheme = { "cyberdream" } },
   checker = { enabled = true },
   concurrency = 5,
   performance = {
